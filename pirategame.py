@@ -13,6 +13,7 @@ class PirateGame(ShowBase):
         self.worldsize = 1024
         self.camLens.setFov(60)
         game_world = World(self)
+        ship = Ship(self)
 
        
 
